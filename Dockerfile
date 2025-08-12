@@ -1,4 +1,4 @@
 FROM openjdk:17-jdk-slim
 WORKDIR /app
-COPY target/eureka-server-1.0-SNAPSHOT.jar app.jar
+COPY target/microservice-academy-eureka-server-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java", "-jar", "app.jar"]
